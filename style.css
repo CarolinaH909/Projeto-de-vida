@@ -1,12 +1,43 @@
-@import url();
-:root{
-    --cor-de-fundo:#1E1E1E;
-    --branco:#FFFFFF
-    --verde:#6FFF57
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root {
+    --cor-de-fundo: #1E1E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-de-fundo: rgba(58, 55, 94, 0.3);
 }
-body{
+
+body {
     background-color: var(--cor-de-fundo);
-    color:var(--branco);
-    text-align: center;
-    font-family: 'Chakra Petch';
+    color: var(--branco);
+    font-family: "Poetsen One", sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span {
+    color: var(--verde);
+}
+
+.botao {
+    font-family: "Poetsen One", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
 }
