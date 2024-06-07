@@ -5,14 +5,14 @@
     --verde: #2fcbd6;
     --branco: #FFFFFF;
     --botao-ativo: #2fcbd6;
-    --botao-inativo: #7894aa;
+    --botao-inativo: #48535c;
     --texto-de-fundo: rgba(58, 55, 94, 0.3);
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Poetsen One", sans-serif;
+    font-family: "Suranna", serif;
 }
 
 .conteudo-principal {
@@ -36,7 +36,7 @@ body {
 }
 
 .botao {
-    font-family: "Poetsen One", sans-serif;
+    font-family: "Suranna", serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
