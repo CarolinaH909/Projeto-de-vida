@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');*/
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
     --cor-de-fundo: #1E1E1E;
     --verde: #2fcbd6;
     --branco: #FFFFFF;
